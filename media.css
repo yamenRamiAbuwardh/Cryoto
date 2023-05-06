@@ -1,0 +1,247 @@
+@media screen and (max-width:1253px) {
+    .news .cards{
+        width: 90%;
+    }
+    .rocket .rocket_content{
+        width: 40%;
+        padding-left: 30px;
+    } 
+    .rocket .rocket_img{
+        width: 30%;
+    }
+   .cards .card2{
+    margin: 0 10px ;
+    }
+}
+@media screen and (max-width:1060px) {
+
+
+    .rocket .rocket_content ,.rocket_img{
+        width: 40%;
+        padding-left: 20px;
+    } 
+    header nav{
+        width: 80%;
+    }
+    header section{
+        width: 80%;
+    }
+    .male .male_content,.male_img{
+        width: 40%;  
+    }
+    .news .cards{
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    
+    .news .cards .card{
+        margin: 10px;
+    }
+.app .app_img_bx, .app_content_bx {
+    
+    width: 45%;
+
+}
+    }
+    @media screen and (max-width:1036px) {
+        .rocket .rocket_img img {
+            width: 132%;
+            
+        }
+
+     
+    }
+    @media screen and (max-width:1056px) {
+        header section .img_date img{
+            width: 114%;
+        }
+
+.app .app_img_bx img {
+    width: 94%;
+    }
+ 
+    }
+    @media screen and (max-width:944) {
+        .converter .cards {
+        width: 102%;
+        }
+
+    }
+    @media screen and (max-width:883px) {
+     
+        header nav ul li{
+            font-size: 10px;
+        }
+.male .male_content, .male_img {
+    width: 44%;
+
+}
+
+header nav ul li {
+    padding: 3px 5px;
+}
+
+.converter .cards {
+    flex-direction: column;
+}
+.converter .cards .card2 {
+    margin:25px 0px;
+}
+.rocket{
+    flex-direction: column-reverse;
+}
+.rocket .rocket_content ,.rocket_img{
+    width: 70%;
+}
+
+
+    }
+    @media screen and (max-width:774px) {
+
+        .male{
+            flex-direction: column;
+        }
+        .male .male_content, .male_img{
+            padding-bottom: 47px;
+        }
+        .rocket .rocket_content ul li{
+            width: 162px;
+        }
+        .rocket .rocket_img img{
+            padding-top: 40px;
+        }header section{
+            flex-direction: column-reverse;
+            
+        }
+        header section .img_date img{
+            display: flex;
+            justify-content: center;align-items: center;
+            position: absolute;
+            top:-10px;
+            left: -20px;
+            width: 120%;
+        }
+        header section .content h1{
+            text-align: center;
+            font-size: 35px;
+        }
+        header section .content p{
+            text-align: center;
+            padding-bottom: 30px;
+        }
+        header nav ul li {
+            display: none;
+        }
+        header section .content button{
+            display: none;
+        }
+        .app{
+            flex-direction: column;
+        }
+
+        .app .app_content_bx h1::before {
+            content: '';
+            position: absolute;
+            width: 60px;
+            height: 2px;
+            left: 45%;
+            border-radius: 22%;
+            bottom: -10%;
+            transform: translatex(-50%);
+            background-color: var(--color_7);
+    }
+    .app .app_content_bx h1{
+        text-align: center;
+    }
+    .app .app_content_bx p{
+        text-align: center;
+    }
+    header button {
+        margin-right: 30px;
+    }
+}
+@media screen and (max-width:454px){
+    .male .male_img img{
+    width: 136%;
+    }
+
+    aside .time span{
+        font-size: 30px;
+    }
+    aside .time span h6{
+        font-size: 10px;
+    }
+} 
+@media screen and (max-width:550px) {
+    .male_img img{
+        width: 130%;
+    }
+    .cr_map p{
+        display: none;
+        padding-top: 10px;
+    }
+    aside .item span{
+        margin: 0px 10px;
+        font-size: 10px;
+    }
+    header section .img_date img{
+        display: flex;
+        justify-content: center;align-items: center;
+        position: absolute;
+        top:-10px;
+        left: -120px;
+        width: 120%;
+    }
+    aside img{
+        margin-top: 0px;
+    }
+    .male .male_content p{
+        margin-top: 30px;
+    }
+    .male .male_content h1{
+        margin-top:0px;
+    }
+    .app .app_content_bx img {
+        width: 130%;
+    }
+    header section .img_date img{
+        left: -40px;
+        width: 150%;
+    }
+    header section .content h1{
+        font-size: 26px;
+    }
+}
+@media screen and (max-width:420px) {
+    aside .time span{
+        font-size: 20px;
+    }
+    aside .time span h6{
+        font-size: 10px;
+    }
+    header section .img_date img{
+        left: -5px;
+    }
+    header nav{
+        margin-bottom: 20px;
+    }
+    header section .content h1{
+        font-size: 25px;
+        line-height: none;
+    }
+    header section .img_date img{
+        width: 182%;
+        left: -50px;
+    }
+    header button{
+        margin-right: 0px;
+    }
+    .cr_map p{
+        display: none;
+        padding-top: 10px;
+    }
+    .cr_map h1{
+        margin-bottom: 80px;
+    }
+}
